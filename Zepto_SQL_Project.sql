@@ -3,7 +3,7 @@ drop table if exists zepto;
 
 use zepto_SQL_project;
 create table zepto(
-sku_id SERIAL PRIMARY KEY,
+sku_id Auto_INCREMENT,
 category VARCHAR(120),
 name varchar(150) not null,
 mrp numeric(8,2),
